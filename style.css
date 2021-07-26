@@ -35,6 +35,10 @@ html {
 .padded-b-0 { padding-bottom: 0; }
 .margin-b-0 { margin-bottom: 0; }
 
+/* Portfolio page (skip this step if you've already added them */
+.margin-b-1 { margin-bottom: 1rem; }
+.margin-b-2 { margin-bottom: 2rem; }
+
 .bg-rust  { background-color: #d3b4a2; }
 .bg-green { background-color: #9b9b81; }
 .bg-dark  { background-color: #a2745c; }
@@ -151,6 +155,10 @@ footer a:hover {
     background-repeat: no-repeat;
     background-image: url('/images/plant.jpg');
 }
+/* Portfolio Page */
+.landscape {
+    padding-bottom: 60%;
+}
 
 .bg-plant {
     background-image: url('/images/plant.jpg');
@@ -169,6 +177,52 @@ footer a:hover {
 .bg-mockup {
     background-image: url('/images/mockup.jpg');
 }
+
+/* Newsletter Include */
+.right-arrow {
+    max-width: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+
+/* Contact Form */
+form input, 
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 2px solid #a2745c;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #9b9b81;
+}
+
+textarea {
+  min-height: 4rem;
+}
+
+form label {
+  margin-top: 1rem;
+  display: block;
+  color: #a2745c;
+  font-weight: bold;
+}
+
+form .button {
+    border: 2px solid #a2745c;
+    background: none;
+    color: #a2745c;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+}
+
 /* About Page */
 .profile-image {
     border-radius: 100%;
