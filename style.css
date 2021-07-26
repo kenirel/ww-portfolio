@@ -76,13 +76,9 @@ h2,h3,h4,h5,h6 {
     letter-spacing: -0.01em;
 }
 
-h2 {
-    font-size: 2.5rem;
-}
+h2 { font-size: 2.5rem; }
 
-h3 {
-    font-size: 1.8rem;
-}
+h3 { font-size: 1.8rem; }
 
 p {
  	font-weight: 300;   
@@ -98,6 +94,8 @@ p:last-child {
 a {
     color: inherit;
 }
+
+.logo { text-decoration: none; }
 
 nav a {
     text-decoration: none;
